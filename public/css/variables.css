@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --color-light-pink: #f5edf0;
+    --color-dark-brown: #553814;
+
+    /* Spaces */
+    --space-small: 8;
+    --space-medium: 16;
+    --space-big: 24;
+    --space-extra-big: 48;
+}

@@ -1,0 +1,156 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&family=Raleway&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  color: #553814;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+#page-wrap {
+  min-height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#content-wrap {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#foot {
+  position: relative;
+  height: 100px;
+  margin-top: -110px;
+  margin-left: 10px;
+  clear: both;
+}
+
+body {
+  background-color: #f5edf0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main-menu {
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.main-menu a {
+  color: #553814;
+  padding: 8;
+}
+
+.main-menu a:hover {
+  background-color: #553814;
+  color: #f5edf0;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  border-radius: 100px;
+  border: solid #553814;
+  width: 100px;
+  height: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+h2,
+h3,
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.h3title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-text {
+  margin-bottom: 40px;
+}
+.form-wrap {
+  width: 100%;
+}
+
+.grid {
+  margin: 10px 5px 80px 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.grid > article {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgb(0, 0, 0, 0.3);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.grid > article:hover {
+  transition: transform 0.1s ease-out;
+  transform: translate() 5px;
+}
+
+.grid > article img {
+  width: 100%;
+}
+
+.text {
+  padding: 0 20px 10px;
+}
+
+.text > h3 {
+  text-transform: uppercase;
+}
+
+.text > p {
+  color: #fa8231;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid > article {
+    text-align: center;
+  }
+}
